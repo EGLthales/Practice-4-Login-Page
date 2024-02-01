@@ -20,12 +20,67 @@ body{
     width: 400px;
     margin: 0px auto;
     margin-top: 190px;
+    padding: 15px 0px;
 
+    border-radius: 18px;
+    border: 1px solid rgba(240, 240, 240, 0.5);
+}
 
-    border: 1px solid red;
+.caixa h1{
+    color: rgba(245, 245, 245, 0.6);
+    font-size: 42px;
 }
 
 
+
+.caixa input{
+    font-weight: 900;
+}
+
+.caixa input::placeholder{
+    color: rgba(1, 1, 1, 1);
+}
+
+.caixa input:focus{
+    outline: none;
+}
+
+
+
+
+.email input{
+    width: 140px;
+    height: 40px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    color: rgba(2, 2, 2, 1);
+    margin-top: 10px;
+}
+
+.password input{
+    width: 140px;
+    height: 40px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    color: rgba(2, 2, 2, 1);
+    margin-top: 15px;
+}
+
+.Enter input{
+    width: 70px;
+    height: 41px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(255, 91, 91);
+    color: rgb(84, 0, 0);
+    margin-top: 18px;
+    cursor: pointer;
+    font-size: 15px;
+}
 
 
 
