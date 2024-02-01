@@ -6,6 +6,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: rgba(16, 5, 26, 1);
 }
 
 #login{
@@ -20,7 +21,7 @@ body{
     margin: 0px auto;
     margin-top: 190px;
 
-    
+
     border: 1px solid red;
 }
 
