@@ -4,9 +4,12 @@
     box-sizing: border-box;
 }
 
+/*MOBILE VIEW 1*/
 body{
     font-family: 'Roboto', sans-serif;
-    background: url(/assets/bg.jpg) no-repeat top center;   
+    background: url(/assets/bg.jpg) no-repeat top center; 
+    background-position: right;  
+    height: 30vh;
 }
 
 #login{
@@ -17,11 +20,11 @@ body{
     justify-content: center;
     text-align: center;
 
-    max-width: 400px; 
+    max-width: 300px; 
     width: 100%;
 
     margin: 0px auto;
-    margin-top: 190px;
+    margin-top: 126px;
     padding: 15px 0px;
 
     border-radius: 18px;
@@ -32,7 +35,7 @@ body{
 
 /*<h1> STYLLE*/
 .caixa h1{
-    font-size: 42px;
+    font-size: 37px;
     color: rgba(255, 236, 222, 0.407);
     transition: 1.8s;
 }
@@ -42,16 +45,17 @@ body{
 
 
 /*TEXTP <p> ATTRIBUTES*/
-.caixa #txt{
+.txt{
     color: rgb(0, 195, 255);
     font-weight: 500;
-    
+    font-size: 16px;
+
     margin-top: 20px;
 }
 
 
 /*LINK <a> ATTRIBUTES*/
-.caixa #link{
+.link{
     text-decoration: none;
     color: rgb(255, 246, 232);
     font-weight: 400;
@@ -126,8 +130,54 @@ body{
     font-weight: 600;
 }
 
+/*MOBILE VIEW 2*/
+@media(min-width: 570px){
+
+    #login{
+        max-width: 340px; 
+    }
 
 
+}
+
+
+
+/*DESKTOP VIEW*/
+@media(min-width: 700px){
+
+    body{
+        background: url(/assets/bg.jpg) no-repeat top center;   
+    }
+
+    #login{
+        max-width: 400px; 
+    }
+    
+    
+    /*<h1> STYLLE*/
+    .caixa h1{
+        font-size: 42px;
+    }
+    
+    /*TEXTP <p> ATTRIBUTES*/
+    .txt{
+        font-size: 18px;
+    }
+    
+    
+    /*LINK <a> ATTRIBUTES*/
+    .link{
+        text-decoration: none;
+        color: rgb(255, 246, 232);
+        font-weight: 400;
+    }
+
+
+
+
+
+    
+}
 
 
 
