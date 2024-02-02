@@ -34,6 +34,19 @@ body{
     font-size: 42px;
 }
 
+.caixa #txt{
+    margin-top: 20px;
+    color: rgba(0, 255, 255, 0.831);
+    font-weight: 500;
+}
+
+.caixa #link{
+    text-decoration: none;
+    color: rgba(255, 0, 0, 0.918);
+    font-weight: 600;
+}
+
+
 .email input, .password input{
     font-weight: 900;
     width: 160px;  
