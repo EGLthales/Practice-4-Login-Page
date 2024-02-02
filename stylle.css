@@ -29,17 +29,27 @@ body{
     background-color: rgba(146, 0, 168, 0.071);
 }
 
+
+/*<h1> STYLLE*/
 .caixa h1{
-    color: rgba(255, 236, 222, 0.918);
     font-size: 42px;
+    color: rgba(255, 236, 222, 0.462);
+    transition: 1.5s;
+}
+.caixa h1:hover{
+    color: rgba(255, 236, 222, 0.973);
 }
 
+
+/*<p> ATTRIBUTES*/
 .caixa #txt{
     margin-top: 20px;
     color: rgba(0, 255, 255, 0.831);
     font-weight: 500;
 }
 
+
+/*<a> ATTRIBUTES*/
 .caixa #link{
     text-decoration: none;
     color: rgba(255, 0, 0, 0.918);
@@ -47,6 +57,21 @@ body{
 }
 
 
+
+
+/*INPUTS CHANGES*/
+.caixa input::placeholder{
+    color: rgba(1, 1, 1, 0.924);
+}
+
+.caixa input:focus{
+    outline: none;
+}
+
+
+
+
+/*INPUTS STYLLE*/
 .name input{
     font-weight: 900;
     width: 160px;  
@@ -56,11 +81,8 @@ body{
     border-radius: 15px;
     background-color: rgba(235, 235, 235, 0.831);
     color: rgba(2, 2, 2, 1);
-    margin-top: 10px;
-
+    margin-top: 15px;
 }
-
-
 .email input, .password input{
     font-weight: 900;
     width: 160px;  
@@ -70,25 +92,8 @@ body{
     border-radius: 15px;
     background-color: rgba(235, 235, 235, 0.831);
     color: rgba(2, 2, 2, 1);
-}
-
-
-.caixa input::placeholder{
-    color: rgba(1, 1, 1, 0.924);
-}
-
-.caixa input:focus{
-    outline: none;
-}
-
-.email input{
-    margin-top: 10px;
-}
-
-.password input{ 
     margin-top: 15px;
 }
-
 
 
 .Enter input{
@@ -107,6 +112,14 @@ body{
 .Enter input{
     font-weight: 600;
 }
+
+
+
+
+
+
+
+
 
 
 
