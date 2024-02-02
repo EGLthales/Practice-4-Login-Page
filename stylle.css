@@ -47,7 +47,21 @@ body{
 }
 
 
-.email input, .password input, .name input{
+.name input{
+    font-weight: 900;
+    width: 160px;  
+    height: 40px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(235, 235, 235, 0.831);
+    color: rgba(2, 2, 2, 1);
+    margin-top: 10px;
+
+}
+
+
+.email input, .password input{
     font-weight: 900;
     width: 160px;  
     height: 40px;
