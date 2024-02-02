@@ -12,6 +12,7 @@ body{
     height: 30vh;
 }
 
+/*CONTAINER #login*/
 #login{
     display: flex;
     flex-direction: column;
@@ -139,10 +140,16 @@ body{
 /*MOBILE VIEW 2*/
 @media(min-width: 570px){
 
+
+/*CONTAINER #login*/
     #login{
         max-width: 450px; 
     }
 
+    /*<h1> STYLLE*/
+    .caixa h1{
+    font-size: 40px;
+    }
 
 }
 
@@ -158,6 +165,7 @@ body{
         background: url(/assets/bg.jpg) no-repeat top center;   
     }
 
+ /*CONTAINER #login*/   
     #login{
         max-width: 420px; 
         margin-top: 162px;
