@@ -47,7 +47,7 @@ body{
 }
 
 
-.email input, .password input{
+.email input, .password input, .name input{
     font-weight: 900;
     width: 160px;  
     height: 40px;
