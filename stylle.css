@@ -43,9 +43,10 @@ body{
 
 /*TEXTP <p> ATTRIBUTES*/
 .caixa #txt{
-    margin-top: 20px;
     color: rgb(0, 195, 255);
     font-weight: 500;
+    
+    margin-top: 20px;
 }
 
 
@@ -81,6 +82,7 @@ body{
     border-radius: 15px;
     background-color: rgba(235, 235, 235, 0.85);
     color: rgba(1, 1, 1, 0.974);
+
     margin-top: 15px;
 }
 
@@ -94,6 +96,7 @@ body{
     border-radius: 15px;
     background-color: rgba(235, 235, 235, 0.85);
     color: rgba(1, 1, 1, 0.974);
+
     margin-top: 15px;
 }
 
@@ -108,9 +111,9 @@ body{
     color: rgba(236, 229, 255, 0.746);
     cursor: pointer;
     font-size: 15px;
-    margin-top: 18px;
-
     transition: 1.4s;
+
+    margin-top: 18px;
 }
 
 .Enter input:hover{
