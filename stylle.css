@@ -6,7 +6,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: rgba(16, 5, 26, 1);
+    background-color: rgba(6, 0, 11, 0.966);
 }
 
 #login{
@@ -23,7 +23,8 @@ body{
     padding: 15px 0px;
 
     border-radius: 18px;
-    border: 1px solid rgba(240, 240, 240, 0.5);
+    border: 1px solid rgba(255, 0, 0, 0.389);
+    background-color: rgba(255, 0, 0, 0.044);
 }
 
 .caixa h1{
