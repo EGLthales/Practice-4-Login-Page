@@ -41,7 +41,7 @@ body{
 }
 
 
-/*<p> ATTRIBUTES*/
+/*TEXTP <p> ATTRIBUTES*/
 .caixa #txt{
     margin-top: 20px;
     color: rgb(0, 195, 255);
@@ -49,7 +49,7 @@ body{
 }
 
 
-/*<a> ATTRIBUTES*/
+/*LINK <a> ATTRIBUTES*/
 .caixa #link{
     text-decoration: none;
     color: rgb(255, 246, 232);
