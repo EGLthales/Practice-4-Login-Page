@@ -1,4 +1,4 @@
-<h1 align="center"> Practive 2 | Social Links</h1>
+<h1 align="center"> Practive 4 | Login Page</h1>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -13,7 +13,7 @@
 <br>
 
 <p align="center">
-  <img alt="projeto DevLinks" src=".github/preview.JPG" width="100%">
+  <img alt="Projeto Login Page" src=".github/preview.JPG" width="100%">
 </p>
 
 ## 🚀 Tecnologias

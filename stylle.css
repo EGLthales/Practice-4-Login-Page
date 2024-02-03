@@ -8,8 +8,8 @@
 body{
     font-family: 'Roboto', sans-serif;
     background-color: rgba(12, 12, 12, 0.997); 
-    backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur();
+    backdrop-filter: blur(10px);
     height: 30vh;
 }
 
