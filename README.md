@@ -25,7 +25,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O Practice 4 é uma página de Login e Cadastro de usuário.
+O Practice 4 é uma página de Login e Cadastro do usuário.
 
 - [Acesse o projeto finalizado, online](https://eglthales.github.io/Practice-4-Login-Page/)
 
