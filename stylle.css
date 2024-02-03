@@ -7,8 +7,9 @@
 /*MOBILE VIEW 1*/
 body{
     font-family: 'Roboto', sans-serif;
-    background: url(/assets/bg.jpg) no-repeat top center; 
-    background-position: right;  
+    background-color: rgba(12, 12, 12, 0.997); 
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: ;
     height: 30vh;
 }
 
@@ -162,9 +163,6 @@ body{
 /*DESKTOP VIEW*/
 @media(min-width: 700px){
 
-    body{
-        background: url(/assets/bg.jpg) no-repeat top center;   
-    }
 
  /*CONTAINER #login*/   
     #login{
