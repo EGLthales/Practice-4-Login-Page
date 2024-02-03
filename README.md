@@ -1,4 +1,4 @@
-<h1 align="center"> Practive 4 | Login Page</h1>
+<h1 align="center"> Practice 4 | Login Page</h1>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
